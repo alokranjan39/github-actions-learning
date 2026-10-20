@@ -10,3 +10,10 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello! My first GitHub Actions workflow is working."
+ 
+  hello2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello! My first GitHub Actions workflow is working."
+        
